@@ -29,7 +29,7 @@ jobs:
         with:
           repository: PranayV66/flask-kubernetes-app
             #path: flask-kubernetes-app
-          path: /
+          path: .
           token: ${{ secrets.GH_PAT }}
 
       - name: Move helm charts to helm-repo directory
