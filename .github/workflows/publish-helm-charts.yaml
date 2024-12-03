@@ -36,7 +36,7 @@ jobs:
           mkdir -p helm-repo
           pwd
           ls -ltr /home/runner/work/flask-kubernetes-app-helm/flask-kubernetes-app-helm
-          ls ltr flask-kubernetes-app/charts/
+          ls -ltr flask-kubernetes-app/charts/
           #cp flask-kubernetes-app/charts/flask-kubernetes-app/*.tgz helm-repo/
           cp flask-kubernetes-app/charts/*.tgz helm-repo/
 
