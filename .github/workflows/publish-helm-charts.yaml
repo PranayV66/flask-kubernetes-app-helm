@@ -28,18 +28,17 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: PranayV66/flask-kubernetes-app
-            #path: flask-kubernetes-app
-          path: .
+          path: flask-kubernetes-app
           token: ${{ secrets.GH_PAT }}
 
       - name: Move helm charts to helm-repo directory
         run: |
           mkdir -p helm-repo
           pwd
-          ls -ltr /
-          ls -ltr /flask-kubernetes-app/charts
+          ls -ltr /home/runner/work/flask-kubernetes-app-helm/flask-kubernetes-app-helm
+          ls ltr flask-kubernetes-app/charts/
           #cp flask-kubernetes-app/charts/flask-kubernetes-app/*.tgz helm-repo/
-          cp /flask-kubernetes-app/charts/*.tgz helm-repo/
+          cp flask-kubernetes-app/charts/*.tgz helm-repo/
 
       - name: Generate or update index.html
         run: |
