@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  flask-kubernetes-app:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2024-12-03T20:38:36.138494562Z"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.2.2
+    description: Helm chart for my flask-kubernetes-app
+    digest: 76706b2554de8846f332b351f6644f1ef1599127ab194e829cb882d560203300
+    name: flask-kubernetes-app
+    type: application
+    urls:
+    - https://github.com/PranayV66/flask-kubernetes-app-helm/flask-kubernetes-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-12-03T20:38:36.133086696Z"
