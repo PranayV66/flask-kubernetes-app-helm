@@ -34,7 +34,8 @@ jobs:
       - name: Move helm charts to helm-repo directory
         run: |
           mkdir -p helm-repo
-          cp flask-kubernetes-app/charts/flask-kubernetes-app/*.tgz helm-repo/
+          #cp flask-kubernetes-app/charts/flask-kubernetes-app/*.tgz helm-repo/
+          cp /flask-kubernetes-app/charts/*.tgz helm-repo/
 
       - name: Generate or update index.html
         run: |
