@@ -3,7 +3,7 @@ entries:
   flask-kubernetes-app:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-03T22:40:33.114133869Z"
+    created: "2024-12-07T18:49:04.634087854Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -13,6 +13,6 @@ entries:
     name: flask-kubernetes-app
     type: application
     urls:
-    - https://github.com/PranayV66/flask-kubernetes-app-helm/helm-repo/flask-kubernetes-app-0.1.0.tgz
+    - https://PranayV66.github.io/flask-kubernetes-app-helm/helm-repo/flask-kubernetes-app-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-03T22:40:33.109185328Z"
+generated: "2024-12-07T18:49:04.628636427Z"
