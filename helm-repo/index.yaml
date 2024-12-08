@@ -3,7 +3,21 @@ entries:
   flask-kubernetes-app:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-08T21:15:02.049381729Z"
+    created: "2024-12-08T21:19:29.189986252Z"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.2.2
+    description: Helm chart for my flask-kubernetes-app
+    digest: a45eb238b93903d47c95947e906a68d16c3e30f4ebde2d813e06eeb5d6a9cbc2
+    name: flask-kubernetes-app
+    type: application
+    urls:
+    - https://PranayV66.github.io/flask-kubernetes-app-helm/helm-repo/flask-kubernetes-app-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2024-12-08T21:19:29.196972706Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -17,7 +31,7 @@ entries:
     version: "1"
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-08T21:15:02.044024293Z"
+    created: "2024-12-08T21:19:29.184201713Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -31,7 +45,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-08T21:15:02.039345775Z"
+    created: "2024-12-08T21:19:29.1795311Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -45,7 +59,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-08T21:15:02.033456314Z"
+    created: "2024-12-08T21:19:29.171510997Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -59,7 +73,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-08T21:15:02.028012419Z"
+    created: "2024-12-08T21:19:29.166539316Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -71,4 +85,4 @@ entries:
     urls:
     - https://PranayV66.github.io/flask-kubernetes-app-helm/helm-repo/flask-kubernetes-app-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-08T21:15:02.022854613Z"
+generated: "2024-12-08T21:19:29.160400428Z"
