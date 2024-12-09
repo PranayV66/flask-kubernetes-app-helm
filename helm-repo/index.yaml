@@ -3,7 +3,7 @@ entries:
   flask-kubernetes-app:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-09T00:50:08.649669595Z"
+    created: "2024-12-09T20:38:52.474781936Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -17,7 +17,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-09T00:50:08.639867234Z"
+    created: "2024-12-09T20:38:52.464457785Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -31,7 +31,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-09T00:50:08.644423149Z"
+    created: "2024-12-09T20:38:52.469138741Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -45,7 +45,7 @@ entries:
     version: "1"
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-09T00:50:08.634479432Z"
+    created: "2024-12-09T20:38:52.458642712Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -59,7 +59,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-09T00:50:08.629703017Z"
+    created: "2024-12-09T20:38:52.454008584Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -73,7 +73,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-09T00:50:08.623908635Z"
+    created: "2024-12-09T20:38:52.44845217Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -87,7 +87,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-09T00:50:08.61937917Z"
+    created: "2024-12-09T20:38:52.443353767Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -99,4 +99,4 @@ entries:
     urls:
     - https://PranayV66.github.io/flask-kubernetes-app-helm/helm-repo/flask-kubernetes-app-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-09T00:50:08.613396304Z"
+generated: "2024-12-09T20:38:52.43728429Z"
