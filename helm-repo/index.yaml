@@ -3,7 +3,21 @@ entries:
   flask-kubernetes-app:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-16T20:43:40.335764552Z"
+    created: "2024-12-16T23:08:02.732349857Z"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.2.2
+    description: Helm chart for my flask-kubernetes-app
+    digest: 5202329332481e57099ad839ac54ad6f83ab67b290f3ae721d9e88368ce9fad2
+    name: flask-kubernetes-app
+    type: application
+    urls:
+    - https://PranayV66.github.io/flask-kubernetes-app-helm/helm-repo/flask-kubernetes-app-2.0.5.tgz
+    version: 2.0.5
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2024-12-16T23:08:02.727260802Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -17,7 +31,7 @@ entries:
     version: 2.0.4
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-16T20:43:40.330998603Z"
+    created: "2024-12-16T23:08:02.721715683Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -31,7 +45,7 @@ entries:
     version: 2.0.3
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-16T20:43:40.325503925Z"
+    created: "2024-12-16T23:08:02.715788301Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -45,7 +59,7 @@ entries:
     version: 2.0.2
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-16T20:43:40.320231814Z"
+    created: "2024-12-16T23:08:02.710946254Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -59,7 +73,7 @@ entries:
     version: 2.0.1
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-16T20:43:40.314880586Z"
+    created: "2024-12-16T23:08:02.704956172Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -73,21 +87,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-16T20:43:40.309942122Z"
-    dependencies:
-    - name: postgresql
-      repository: https://charts.bitnami.com/bitnami
-      version: 16.2.2
-    description: Helm chart for my flask-kubernetes-app
-    digest: f82ac9f74a8cc76d421b3c25f9a7f1e603cb3e7d7be76eba6b949e4677f33c9c
-    name: flask-kubernetes-app
-    type: application
-    urls:
-    - https://PranayV66.github.io/flask-kubernetes-app-helm/helm-repo/flask-kubernetes-app-1.tgz
-    version: "1"
-  - apiVersion: v2
-    appVersion: "1.0"
-    created: "2024-12-16T20:43:40.304806638Z"
+    created: "2024-12-16T23:08:02.694209925Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -101,7 +101,21 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-16T20:43:40.299062898Z"
+    created: "2024-12-16T23:08:02.699018519Z"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.2.2
+    description: Helm chart for my flask-kubernetes-app
+    digest: f82ac9f74a8cc76d421b3c25f9a7f1e603cb3e7d7be76eba6b949e4677f33c9c
+    name: flask-kubernetes-app
+    type: application
+    urls:
+    - https://PranayV66.github.io/flask-kubernetes-app-helm/helm-repo/flask-kubernetes-app-1.tgz
+    version: "1"
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2024-12-16T23:08:02.688057434Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -115,7 +129,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-16T20:43:40.29429575Z"
+    created: "2024-12-16T23:08:02.683286971Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -129,7 +143,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-16T20:43:40.28844071Z"
+    created: "2024-12-16T23:08:02.677369495Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -143,7 +157,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-12-16T20:43:40.282405557Z"
+    created: "2024-12-16T23:08:02.671389637Z"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -155,4 +169,4 @@ entries:
     urls:
     - https://PranayV66.github.io/flask-kubernetes-app-helm/helm-repo/flask-kubernetes-app-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-16T20:43:40.277311189Z"
+generated: "2024-12-16T23:08:02.666075098Z"
